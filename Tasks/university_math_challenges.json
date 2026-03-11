@@ -1,0 +1,29 @@
+{
+  "task": "matrix_det_2x2_univ",
+  "domain": "University Math - Linear Algebra",
+  "interface": "solveDet2x2(self, matrix)",
+  "test_cases": [
+    {
+      "input": [[1, 2], [3, 4]],
+      "output": -2
+    },
+    {
+      "input": [[5, 6], [7, 8]],
+      "output": -2
+    }
+  ],
+  "hints": ["Determinant of 2x2 matrix: ad - bc"]
+}
+---
+{
+  "task": "matrix_det_3x3_univ",
+  "domain": "University Math - Linear Algebra",
+  "interface": "solveDet3x3(self, matrix)",
+  "test_cases": [
+    {
+      "input": [[1, 2, 3], [0, 4, 5], [1, 0, 6]],
+      "output": 22
+    }
+  ],
+  "hints": ["Sarrus rule for 3x3 determinant."]
+}

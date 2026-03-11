@@ -1,0 +1,20 @@
+{
+  "task": "exp_of_sum",
+  "interface": "exp_add(a, b)",
+  "test_cases": [
+    {
+      "input": [
+        1.0,
+        1.0
+      ],
+      "output": 7.38905609893065
+    },
+    {
+      "input": [
+        0.0,
+        0.0
+      ],
+      "output": 1.0
+    }
+  ]
+}

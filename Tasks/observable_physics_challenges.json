@@ -1,0 +1,38 @@
+{
+  "task": "pendulum_tea_bag",
+  "domain": "Observable Physics - Oscillations",
+  "interface": "getPeriod(self, length)",
+  "test_cases": [
+    {
+      "input": 0.2485,
+      "output": 1.000190504340464
+    }
+  ],
+  "hints": ["Period T = 2pi * sqrt(L/g)."]
+}
+---
+{
+  "task": "refraction_water_glass",
+  "domain": "Observable Physics - Optics",
+  "interface": "getRefraction(self, n1, n2, theta1)",
+  "test_cases": [
+    {
+      "input": [1.0, 1.33, 30.0],
+      "output": 22.082413194472252
+    }
+  ],
+  "hints": ["Snell's Law: n1*sin(theta1) = n2*sin(theta2)."]
+}
+---
+{
+  "task": "free_fall_gravity",
+  "domain": "Observable Physics - Kinematics",
+  "interface": "getDistance(self, time)",
+  "test_cases": [
+    {
+      "input": 2.0,
+      "output": 19.6133
+    }
+  ],
+  "hints": ["Distance d = 0.5 * g * t^2."]
+}

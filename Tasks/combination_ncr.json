@@ -1,0 +1,24 @@
+{
+  "task": "combination_ncr",
+  "domain": "High School Math - Probability",
+  "interface": "nCr(self, n, k)",
+  "test_cases": [
+    {
+      "input": [
+        5,
+        2
+      ],
+      "output": 10
+    },
+    {
+      "input": [
+        10,
+        3
+      ],
+      "output": 120
+    }
+  ],
+  "hints": [
+    "Calculate combinations nCr"
+  ]
+}

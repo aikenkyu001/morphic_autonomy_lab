@@ -1,0 +1,33 @@
+{
+  "task": "distance_formula",
+  "domain": "High School Math - Geometry",
+  "interface": "calculateDistance(self, x1, y1, x2, y2)",
+  "test_cases": [
+    {
+      "input": [0, 0, 3, 4],
+      "output": 5.0
+    },
+    {
+      "input": [1, 1, 4, 5],
+      "output": 5.0
+    }
+  ],
+  "hints": ["Distance formula: sqrt((x2-x1)^2 + (y2-y1)^2)"]
+}
+---
+{
+  "task": "dot_product",
+  "domain": "High School Math - Vectors",
+  "interface": "calculateDotProduct(self, ax, ay, bx, by)",
+  "test_cases": [
+    {
+      "input": [1, 2, 3, 4],
+      "output": 11.0
+    },
+    {
+      "input": [5, -1, 2, 10],
+      "output": 0.0
+    }
+  ],
+  "hints": ["Dot product: ax*bx + ay*by"]
+}

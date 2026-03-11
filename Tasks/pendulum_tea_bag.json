@@ -1,0 +1,14 @@
+{
+  "task": "pendulum_tea_bag",
+  "domain": "Observable Physics - Oscillations",
+  "interface": "getPeriod(self, length)",
+  "test_cases": [
+    {
+      "input": 0.2485,
+      "output": 1.000190504340464
+    }
+  ],
+  "hints": [
+    "Period T = 2pi * sqrt(L/g)."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task": "quadratic_discriminant",
+  "domain": "High School Math - Algebra",
+  "interface": "calculateDiscriminant(self, a, b, c)",
+  "test_cases": [
+    {
+      "input": [1, 5, 6],
+      "output": 1.0
+    },
+    {
+      "input": [1, 2, 1],
+      "output": 0.0
+    },
+    {
+      "input": [1, 0, 1],
+      "output": -4.0
+    }
+  ],
+  "hints": ["Discriminant formula: D = b^2 - 4ac"]
+}

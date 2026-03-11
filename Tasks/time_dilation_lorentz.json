@@ -1,0 +1,14 @@
+{
+  "task": "time_dilation_lorentz",
+  "domain": "Physics - Special Relativity",
+  "interface": "getGamma(self, velocity)",
+  "test_cases": [
+    {
+      "input": 179875474.8,
+      "output": 1.25
+    }
+  ],
+  "hints": [
+    "Lorentz factor for 0.6c velocity."
+  ]
+}

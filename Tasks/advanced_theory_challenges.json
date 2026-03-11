@@ -1,0 +1,25 @@
+{
+  "task": "euler_identity_check",
+  "domain": "Advanced Math - Complex Analysis",
+  "interface": "checkEuler(self, theta)",
+  "test_cases": [
+    {
+      "input": 3.141592653589793,
+      "output": [-1.0, 1.2246467991473532e-16]
+    }
+  ],
+  "hints": ["e^(i*pi) = cos(pi) + i*sin(pi) = -1 + 0i"]
+}
+---
+{
+  "task": "venturi_pressure_drop",
+  "domain": "Theoretical Physics - Fluid Dynamics",
+  "interface": "getPressure(self, p1, v1, v2, rho)",
+  "test_cases": [
+    {
+      "input": [101325, 2.0, 10.0, 1.225],
+      "output": 101266.2
+    }
+  ],
+  "hints": ["Bernoulli principle: P2 = P1 + 0.5*rho*(v1^2 - v2^2)"]
+}

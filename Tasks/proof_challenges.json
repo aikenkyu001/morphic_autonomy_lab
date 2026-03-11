@@ -1,0 +1,12 @@
+{
+  "task": "arithmetic_sum_proof",
+  "domain": "Formal Verification - Induction",
+  "interface": "proveIdentity(self, func1, func2, range_n)",
+  "test_cases": [
+    {
+      "input": ["recursive_sum", "formula_sum", 100],
+      "output": true
+    }
+  ],
+  "hints": ["Verify that Sum(1..n) is identical to n(n+1)/2."]
+}

@@ -1,0 +1,18 @@
+{
+  "task": "euler_prime_check",
+  "domain": "Math Olympiad - Prime Numbers",
+  "interface": "checkEulerPrime(self, n)",
+  "test_cases": [
+    {
+      "input": 39,
+      "output": true
+    },
+    {
+      "input": 40,
+      "output": false
+    }
+  ],
+  "hints": [
+    "Check if n^2 + n + 41 is prime."
+  ]
+}

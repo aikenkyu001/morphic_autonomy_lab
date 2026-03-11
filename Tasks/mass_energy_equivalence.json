@@ -1,0 +1,14 @@
+{
+  "task": "mass_energy_equivalence",
+  "domain": "Physics - Special Relativity",
+  "interface": "getEnergy(self, mass)",
+  "test_cases": [
+    {
+      "input": 1.0,
+      "output": 8.987551787368176e+16
+    }
+  ],
+  "hints": [
+    "Rest energy for 1kg mass: E = mc^2."
+  ]
+}

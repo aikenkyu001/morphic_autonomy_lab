@@ -1,0 +1,22 @@
+{
+  "task": "matrix_product_determinant",
+  "domain": "University Math - Linear Algebra",
+  "interface": "calculateDetAB(self, A, B)",
+  "test_cases": [
+    {
+      "input": [
+        [[1, 2], [3, 4]],
+        [[5, 6], [7, 8]]
+      ],
+      "output": 4.0
+    },
+    {
+      "input": [
+        [[2, 0], [0, 2]],
+        [[3, 0], [0, 3]]
+      ],
+      "output": 36.0
+    }
+  ],
+  "hints": ["First multiply matrices A and B, then calculate the 2x2 determinant of the result."]
+}

@@ -1,0 +1,39 @@
+{
+  "task": "rain_3d_discovery",
+  "domain": "Matrix Geometry",
+  "interface": "trapRainWater(self, heightMap)",
+  "test_cases": [
+    {
+      "input": [
+        [
+          1,
+          4,
+          3,
+          1,
+          3,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          3,
+          2,
+          3,
+          1
+        ]
+      ],
+      "output": 4
+    }
+  ],
+  "hints": [
+    "Calculates 3D water volume trapped in a grid."
+  ]
+}

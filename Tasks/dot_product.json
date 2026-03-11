@@ -1,0 +1,28 @@
+{
+  "task": "dot_product",
+  "domain": "High School Math - Vectors",
+  "interface": "calculateDotProduct(self, ax, ay, bx, by)",
+  "test_cases": [
+    {
+      "input": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "output": 11.0
+    },
+    {
+      "input": [
+        5,
+        -1,
+        2,
+        10
+      ],
+      "output": 0.0
+    }
+  ],
+  "hints": [
+    "Dot product: ax*bx + ay*by"
+  ]
+}

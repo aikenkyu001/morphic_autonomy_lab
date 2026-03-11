@@ -1,0 +1,510 @@
+{
+  "primitives": {
+    "sort_by_end": {
+      "id": "sort_by_end",
+      "arity": 1,
+      "en_label": "sort by end time",
+      "jp_label": "終了時間ソート"
+    },
+    "filter_overlapping": {
+      "id": "filter_overlapping",
+      "arity": 1,
+      "en_label": "select non-overlapping",
+      "jp_label": "重複排除選択"
+    },
+    "length": {
+      "id": "length",
+      "arity": 1,
+      "en_label": "count elements",
+      "jp_label": "要素数カウント"
+    },
+    "solve_sudoku": {
+      "id": "solve_sudoku",
+      "arity": 1,
+      "en_label": "solve sudoku",
+      "jp_label": "数独解決"
+    },
+    "word_break": {
+      "id": "word_break",
+      "arity": 2,
+      "en_label": "check word break",
+      "jp_label": "単語分割判定"
+    },
+    "dijkstra": {
+      "id": "dijkstra",
+      "arity": 3,
+      "en_label": "calculate shortest path",
+      "jp_label": "最短経路計算"
+    },
+    "rotate_matrix": {
+      "id": "rotate_matrix",
+      "arity": 1,
+      "en_label": "rotate matrix",
+      "jp_label": "行列回転"
+    },
+    "tree_max_path": {
+      "id": "tree_max_path",
+      "arity": 1,
+      "en_label": "calculate tree path",
+      "jp_label": "最大パス合計"
+    },
+    "bitwise_range_and": {
+      "id": "bitwise_range_and",
+      "arity": 2,
+      "en_label": "calculate bitwise range",
+      "jp_label": "ビットAND範囲"
+    },
+    "boggle_solve": {
+      "id": "boggle_solve",
+      "arity": 2,
+      "en_label": "solve boggle",
+      "jp_label": "ボングルパズル"
+    },
+    "fractional_knapsack": {
+      "id": "fractional_knapsack",
+      "arity": 2,
+      "en_label": "calculate knapsack",
+      "jp_label": "分納ナップサック"
+    },
+    "merge_intervals": {
+      "id": "merge_intervals",
+      "arity": 1,
+      "en_label": "merge intervals",
+      "jp_label": "インターバルマージ"
+    },
+    "kth_largest": {
+      "id": "kth_largest",
+      "arity": 2,
+      "en_label": "find kth largest",
+      "jp_label": "k番目最大要素"
+    },
+    "lcs": {
+      "id": "lcs",
+      "arity": 2,
+      "en_label": "calculate lcs",
+      "jp_label": "最長共通部分列"
+    },
+    "lru_cache_op": {
+      "id": "lru_cache_op",
+      "arity": 2,
+      "en_label": "simulate cache",
+      "jp_label": "キャッシュ操作"
+    },
+    "merge_k_lists": {
+      "id": "merge_k_lists",
+      "arity": 1,
+      "en_label": "merge k lists",
+      "jp_label": "ソート済みマージ"
+    },
+    "is_valid_parentheses": {
+      "id": "is_valid_parentheses",
+      "arity": 1,
+      "en_label": "validate parentheses",
+      "jp_label": "括弧正当性判定"
+    },
+    "autocomplete_trie": {
+      "id": "autocomplete_trie",
+      "arity": 2,
+      "en_label": "trie autocomplete",
+      "jp_label": "オートコンプリート"
+    },
+    "bitmask_group": {
+      "id": "bitmask_group",
+      "arity": 1,
+      "en_label": "bitmask group",
+      "jp_label": "ビットマスクグループ"
+    },
+    "matrix_chain": {
+      "id": "matrix_chain",
+      "arity": 1,
+      "en_label": "matrix chain cost",
+      "jp_label": "行列連鎖コスト"
+    },
+    "optimal_bst": {
+      "id": "optimal_bst",
+      "arity": 1,
+      "en_label": "optimal bst cost",
+      "jp_label": "最適探索木コスト"
+    },
+    "regex_match": {
+      "id": "regex_match",
+      "arity": 2,
+      "en_label": "regex match",
+      "jp_label": "正規表現マッチ"
+    },
+    "word_ladder_bfs": {
+      "id": "word_ladder_bfs",
+      "arity": 3,
+      "en_label": "ladder length",
+      "jp_label": "ラダー最短距離"
+    },
+    "mst_prim": {
+      "id": "mst_prim",
+      "arity": 2,
+      "en_label": "minimum spanning tree",
+      "jp_label": "最小全域木計算"
+    },
+    "redundant_conn": {
+      "id": "redundant_conn",
+      "arity": 1,
+      "en_label": "redundant connection",
+      "jp_label": "冗長接続特定"
+    },
+    "sparse_mul": {
+      "id": "sparse_mul",
+      "arity": 2,
+      "en_label": "sparse multiplication",
+      "jp_label": "スパース行列乗算"
+    },
+    "spiral_gen": {
+      "id": "spiral_gen",
+      "arity": 1,
+      "en_label": "generate spiral",
+      "jp_label": "渦巻き行列生成"
+    },
+    "rain_3d": {
+      "id": "rain_3d",
+      "arity": 1,
+      "en_label": "3d rain water",
+      "jp_label": "3D雨水計算"
+    },
+    "text_justify": {
+      "id": "text_justify",
+      "arity": 2,
+      "en_label": "justify text",
+      "jp_label": "テキスト均等付"
+    },
+    "word_search_2": {
+      "id": "word_search_2",
+      "arity": 2,
+      "en_label": "search grid words",
+      "jp_label": "グリッド単語検索"
+    },
+    "permute_dup": {
+      "id": "permute_dup",
+      "arity": 1,
+      "en_label": "unique permutations",
+      "jp_label": "重複順列生成"
+    },
+    "quicksort": {
+      "id": "quicksort",
+      "arity": 1,
+      "en_label": "perform quicksort",
+      "jp_label": "クイックソート"
+    },
+    "mergesort": {
+      "id": "mergesort",
+      "arity": 1,
+      "en_label": "perform mergesort",
+      "jp_label": "マージソート"
+    },
+    "lca_nary": {
+      "id": "lca_nary",
+      "arity": 3,
+      "en_label": "find lowest ancestor",
+      "jp_label": "共通祖先検索"
+    },
+    "serialize_tree": {
+      "id": "serialize_tree",
+      "arity": 1,
+      "en_label": "serialize tree",
+      "jp_label": "木直列化"
+    },
+    "deserialize_tree": {
+      "id": "deserialize_tree",
+      "arity": 1,
+      "en_label": "deserialize tree",
+      "jp_label": "木構造復元"
+    },
+    "ladder_all": {
+      "id": "ladder_all",
+      "arity": 3,
+      "en_label": "find all ladders",
+      "jp_label": "ラダー全経路"
+    },
+    "identity": {
+      "id": "identity",
+      "arity": 1,
+      "en_label": "identity transform",
+      "jp_label": "恒等変換"
+    },
+    "lru_cache_concurrent": {
+      "id": "lru_cache_concurrent",
+      "arity": 2,
+      "en_label": "concurrent cache",
+      "jp_label": "並行キャッシュ操作"
+    },
+    "reconstruct_list": {
+      "id": "reconstruct_list",
+      "arity": 1,
+      "en_label": "reconstruct list",
+      "jp_label": "連結リスト構成"
+    },
+    "check_constraints": {
+      "id": "check_constraints",
+      "arity": 1,
+      "en_label": "check constraints",
+      "jp_label": "制約判定"
+    },
+    "process_context": {
+      "id": "process_context",
+      "arity": 2,
+      "en_label": "process context",
+      "jp_label": "コンテキスト処理"
+    },
+    "flatten_nesting": {
+      "id": "flatten_nesting",
+      "arity": 1,
+      "en_label": "flatten nesting",
+      "jp_label": "構造平坦化"
+    },
+    "composite_task_60": {
+      "id": "composite_task_60",
+      "arity": 2,
+      "en_label": "ultimate dynamic logic synthesis",
+      "jp_label": "究極の動的論理合成"
+    },
+    "factorial": {
+      "id": "factorial",
+      "arity": 1,
+      "en_label": "calculate factorial",
+      "jp_label": "階乗計算"
+    },
+    "exp": {
+      "id": "exp",
+      "arity": 1,
+      "en_label": "calculate exp",
+      "jp_label": "指数計算"
+    },
+    "log": {
+      "id": "log",
+      "arity": 1,
+      "en_label": "calculate log",
+      "jp_label": "対数計算"
+    },
+    "sqrt": {
+      "id": "sqrt",
+      "arity": 1,
+      "en_label": "calculate sqrt",
+      "jp_label": "平方根計算"
+    },
+    "pow": {
+      "id": "pow",
+      "arity": 2,
+      "en_label": "raise to power",
+      "jp_label": "累乗計算"
+    },
+    "sin": {
+      "id": "sin",
+      "arity": 1,
+      "en_label": "calculate sin",
+      "jp_label": "正弦計算"
+    },
+    "cos": {
+      "id": "cos",
+      "arity": 1,
+      "en_label": "calculate cos",
+      "jp_label": "余弦計算"
+    },
+    "tan": {
+      "id": "tan",
+      "arity": 1,
+      "en_label": "calculate tan",
+      "jp_label": "正接計算"
+    },
+    "discriminant": {
+      "id": "discriminant",
+      "arity": 3,
+      "en_label": "calculate discriminant",
+      "jp_label": "判別式計算"
+    },
+    "quadratic_roots": {
+      "id": "quadratic_roots",
+      "arity": 3,
+      "en_label": "solve quadratic equation",
+      "jp_label": "2次方程式解法"
+    },
+    "sub": {
+      "id": "sub",
+      "arity": 2,
+      "en_label": "subtract",
+      "jp_label": "減算"
+    },
+    "mul": {
+      "id": "mul",
+      "arity": 2,
+      "en_label": "multiply",
+      "jp_label": "乗算"
+    },
+    "div": {
+      "id": "div",
+      "arity": 2,
+      "en_label": "divide",
+      "jp_label": "除算"
+    },
+    "distance_2d": {
+      "id": "distance_2d",
+      "arity": 4,
+      "en_label": "calculate 2d distance",
+      "jp_label": "2次元距離計算"
+    },
+    "dot_product_2d": {
+      "id": "dot_product_2d",
+      "arity": 4,
+      "en_label": "calculate 2d dot product",
+      "jp_label": "2次元内積計算"
+    },
+    "derivative_power": {
+      "id": "derivative_power",
+      "arity": 2,
+      "en_label": "differentiate power function",
+      "jp_label": "累乗関数微分"
+    },
+    "integral_power": {
+      "id": "integral_power",
+      "arity": 2,
+      "en_label": "integrate power function",
+      "jp_label": "累乗関数積分"
+    },
+    "combination": {
+      "id": "combination",
+      "arity": 2,
+      "en_label": "calculate combination",
+      "jp_label": "組み合わせ計算"
+    },
+    "permutation": {
+      "id": "permutation",
+      "arity": 2,
+      "en_label": "calculate permutation",
+      "jp_label": "順列計算"
+    },
+    "is_prime": {
+      "id": "is_prime",
+      "arity": 1,
+      "en_label": "check primality",
+      "jp_label": "素数判定"
+    },
+    "gcd": {
+      "id": "gcd",
+      "arity": 2,
+      "en_label": "calculate gcd",
+      "jp_label": "最大公約数計算"
+    },
+    "mod_pow": {
+      "id": "mod_pow",
+      "arity": 3,
+      "en_label": "modular exponentiation",
+      "jp_label": "べき乗剰余計算"
+    },
+    "solve_2x2": {
+      "id": "solve_2x2",
+      "arity": 6,
+      "en_label": "solve 2x2 system",
+      "jp_label": "2元連立方程式解法"
+    },
+    "mod_pow_olympiad": {
+      "id": "mod_pow_olympiad",
+      "arity": 3,
+      "en_label": "solve modular exponentiation puzzle",
+      "jp_label": "べき乗剰余パズル解決"
+    },
+    "euler_prime_poly": {
+      "id": "euler_prime_poly",
+      "arity": 1,
+      "en_label": "check euler prime polynomial",
+      "jp_label": "オイラー素数多項式判定"
+    },
+    "quadratic_vertex": {
+      "id": "quadratic_vertex",
+      "arity": 3,
+      "en_label": "find quadratic vertex",
+      "jp_label": "2次関数頂点計算"
+    },
+    "sum_arithmetic": {
+      "id": "sum_arithmetic",
+      "arity": 3,
+      "en_label": "calculate arithmetic sum",
+      "jp_label": "等差数列和計算"
+    },
+    "sum_geometric": {
+      "id": "sum_geometric",
+      "arity": 3,
+      "en_label": "calculate geometric sum",
+      "jp_label": "等比数列和計算"
+    },
+    "matrix_det_2x2": {
+      "id": "matrix_det_2x2",
+      "arity": 1,
+      "en_label": "calculate 2x2 determinant",
+      "jp_label": "2x2行列式計算"
+    },
+    "matrix_det_3x3": {
+      "id": "matrix_det_3x3",
+      "arity": 1,
+      "en_label": "calculate 3x3 determinant",
+      "jp_label": "3x3行列式計算"
+    },
+    "verify_identity": {
+      "id": "verify_identity",
+      "arity": 3,
+      "en_label": "verify logical identity",
+      "jp_label": "論理等価性検証"
+    },
+    "pendulum_period": {
+      "id": "pendulum_period",
+      "arity": 1,
+      "en_label": "calculate pendulum period",
+      "jp_label": "振り子周期計算"
+    },
+    "snells_law": {
+      "id": "snells_law",
+      "arity": 3,
+      "en_label": "calculate refraction angle",
+      "jp_label": "屈折角計算"
+    },
+    "free_fall_dist": {
+      "id": "free_fall_dist",
+      "arity": 1,
+      "en_label": "calculate free fall distance",
+      "jp_label": "自由落下距離計算"
+    },
+    "complex_exp": {
+      "id": "complex_exp",
+      "arity": 1,
+      "en_label": "calculate complex exponential",
+      "jp_label": "複素指数関数計算"
+    },
+    "bernoulli_flow": {
+      "id": "bernoulli_flow",
+      "arity": 4,
+      "en_label": "calculate bernoulli pressure",
+      "jp_label": "ベルヌーイ圧力計算"
+    },
+    "lorentz_factor": {
+      "id": "lorentz_factor",
+      "arity": 1,
+      "en_label": "calculate lorentz factor",
+      "jp_label": "ローレンツ因子計算"
+    },
+    "relativistic_energy": {
+      "id": "relativistic_energy",
+      "arity": 1,
+      "en_label": "calculate relativistic energy",
+      "jp_label": "相対論的エネルギー計算"
+    }
+  },
+  "output_patterns": {
+    "JP": {
+      "リスト長返却": "return len(res.value)",
+      "値返却": "return res.value",
+      "数独盤面更新": "solved = res.value\n        for i in range(9): \n            for j in range(9): arg1[i][j] = solved[i][j]",
+      "行列盤面更新": "r = res.value\n        for i in range(len(arg1)): \n            for j in range(len(arg1)): arg1[i][j] = r[i][j]"
+    },
+    "EN": {
+      "return length": "return len(res.value)",
+      "return value": "return res.value",
+      "update sudoku": "solved = res.value\n        for i in range(9): \n            for j in range(9): arg1[i][j] = solved[i][j]",
+      "update matrix": "r = res.value\n        for i in range(len(arg1)): \n            for j in range(len(arg1)): arg1[i][j] = r[i][j]"
+    }
+  }
+}

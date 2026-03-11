@@ -1,0 +1,18 @@
+{
+  "task": "refraction_water_glass",
+  "domain": "Observable Physics - Optics",
+  "interface": "getRefraction(self, n1, n2, theta1)",
+  "test_cases": [
+    {
+      "input": [
+        1.0,
+        1.33,
+        30.0
+      ],
+      "output": 22.082413194472252
+    }
+  ],
+  "hints": [
+    "Snell's Law: n1*sin(theta1) = n2*sin(theta2)."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "task": "time_dilation_lorentz",
+  "domain": "Physics - Special Relativity",
+  "interface": "getGamma(self, velocity)",
+  "test_cases": [
+    {
+      "input": 179875474.8,
+      "output": 1.25
+    }
+  ],
+  "hints": ["Lorentz factor for 0.6c velocity."]
+}
+---
+{
+  "task": "mass_energy_equivalence",
+  "domain": "Physics - Special Relativity",
+  "interface": "getEnergy(self, mass)",
+  "test_cases": [
+    {
+      "input": 1.0,
+      "output": 8.987551787368176e+16
+    }
+  ],
+  "hints": ["Rest energy for 1kg mass: E = mc^2."]
+}

@@ -1,0 +1,19 @@
+{
+  "task": "mod_pow_olympiad",
+  "domain": "Math Olympiad - Number Theory",
+  "interface": "solveModPow(self, b, e, m)",
+  "test_cases": [
+    {
+      "input": [2, 2026, 7],
+      "output": 2
+    },
+    {
+      "input": [3, 2026, 10],
+      "output": 9
+    }
+  ],
+
+  "hints": [
+    "Modular exponentiation: (b^e) % m"
+  ]
+}

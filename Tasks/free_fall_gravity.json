@@ -1,0 +1,14 @@
+{
+  "task": "free_fall_gravity",
+  "domain": "Observable Physics - Kinematics",
+  "interface": "getDistance(self, time)",
+  "test_cases": [
+    {
+      "input": 2.0,
+      "output": 19.6133
+    }
+  ],
+  "hints": [
+    "Distance d = 0.5 * g * t^2."
+  ]
+}

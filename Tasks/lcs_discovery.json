@@ -1,0 +1,17 @@
+{
+  "task": "lcs_discovery",
+  "domain": "Dynamic Programming",
+  "interface": "calculateLCS(self, s1, s2)",
+  "test_cases": [
+    {
+      "input": [
+        "abcde",
+        "ace"
+      ],
+      "output": 3
+    }
+  ],
+  "hints": [
+    "Finds the longest common subsequence length."
+  ]
+}

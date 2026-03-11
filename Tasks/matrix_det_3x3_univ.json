@@ -1,0 +1,30 @@
+{
+  "task": "matrix_det_3x3_univ",
+  "domain": "University Math - Linear Algebra",
+  "interface": "solveDet3x3(self, matrix)",
+  "test_cases": [
+    {
+      "input": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          0,
+          6
+        ]
+      ],
+      "output": 22
+    }
+  ],
+  "hints": [
+    "Sarrus rule for 3x3 determinant."
+  ]
+}

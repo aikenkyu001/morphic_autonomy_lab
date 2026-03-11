@@ -1,0 +1,30 @@
+{
+  "task": "indefinite_integral",
+  "domain": "High School Math - Calculus",
+  "interface": "integrate(self, a, n)",
+  "test_cases": [
+    {
+      "input": [
+        6,
+        1
+      ],
+      "output": [
+        3.0,
+        2
+      ]
+    },
+    {
+      "input": [
+        3,
+        2
+      ],
+      "output": [
+        1.0,
+        3
+      ]
+    }
+  ],
+  "hints": [
+    "Integral rule: int(ax^n dx) = (a/(n+1))x^(n+1)"
+  ]
+}

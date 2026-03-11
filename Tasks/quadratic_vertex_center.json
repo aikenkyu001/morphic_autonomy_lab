@@ -1,0 +1,32 @@
+{
+  "task": "quadratic_vertex_center",
+  "domain": "Center Exam - Math I-A",
+  "interface": "findVertex(self, a, b, c)",
+  "test_cases": [
+    {
+      "input": [
+        1,
+        -4,
+        3
+      ],
+      "output": [
+        2.0,
+        -1.0
+      ]
+    },
+    {
+      "input": [
+        2,
+        8,
+        5
+      ],
+      "output": [
+        -2.0,
+        -3.0
+      ]
+    }
+  ],
+  "hints": [
+    "Vertex coordinates p = -b/2a, q = c - b^2/4a"
+  ]
+}
