@@ -2,7 +2,8 @@
 
 **Author:** Fumio Miyata  
 **Affiliation:** Independent Researcher  
-**Date:** March 11, 2026
+**Date:** March 11, 2026  
+**DOI:** [10.5281/zenodo.18954335](https://doi.org/10.5281/zenodo.18954335)
 
 ---
 

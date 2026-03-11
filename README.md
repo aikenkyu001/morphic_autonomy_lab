@@ -3,7 +3,10 @@
 **Founder & Principal Researcher:** Fumio Miyata  
 **Date:** March 11, 2026  
 **Status:** 100% Bit-Level Verified  
+**DOI:** [10.5281/zenodo.18954335](https://doi.org/10.5281/zenodo.18954335)  
 **Official Repository:** [https://github.com/aikenkyu001/morphic_autonomy_lab](https://github.com/aikenkyu001/morphic_autonomy_lab)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18954335.svg)](https://doi.org/10.5281/zenodo.18954335)
 
 ---
 
